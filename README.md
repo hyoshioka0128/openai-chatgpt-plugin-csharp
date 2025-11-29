@@ -32,7 +32,7 @@ The API and API description are all standard. The ChatGPT plugin-specific part o
 
 1. Open Codespaces Ports tab, right click 8000, and make it public.
 1. Copy the Codesapces address for port 8000
-1. Open Chat GPT and add the plugin with the Codespaces address
+1. Open ChatGPT and add the plugin with the Codespaces address
 1. Run a query for 'hiking boots'
 
 ### Run in Dev Container
@@ -42,7 +42,7 @@ The API and API description are all standard. The ChatGPT plugin-specific part o
     [![Open in Dev Container](https://img.shields.io/static/v1?style=for-the-badge&label=Dev+Container&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/timheuer/openai-plugin-aspnetcore)
 
 1. Hit F5 to start the API
-1. Open Chat GPT and add the plugin with `localhost:8000`
+1. Open ChatGPT and add the plugin with `localhost:8000`
 1. Run a query for 'hiking boots'
 
 ### Run Locally
@@ -50,7 +50,7 @@ The API and API description are all standard. The ChatGPT plugin-specific part o
 1. Clone the repo to your local machine `git clone https://github.com/timheuer/openai-plugin-aspnetcore`
 1. Open repo in Visual Studio or VS Code 
 1. Hit F5 to start the API
-1. Open Chat GPT and add the plugin with `localhost:8000`
+1. Open ChatGPT and add the plugin with `localhost:8000`
 1. Run a query for 'hiking boots'
 
 ## Deploy to Azure
@@ -63,7 +63,7 @@ The API and API description are all standard. The ChatGPT plugin-specific part o
 1. Run `azd auth login`
 1. Run `azd up`
 1. Copy the endpoint printed to the terminal
-1. Open Chat GPT and add the plugin with that endpoint
+1. Open ChatGPT and add the plugin with that endpoint
 1. Run a query for 'hiking boots'
 
 ### Deploy with GitHub Actions
@@ -76,7 +76,7 @@ The API and API description are all standard. The ChatGPT plugin-specific part o
 1. Run `azd auth login`
 1. Run `azd pipeline config`
 1. Click on the printed actions link. Scroll to the bottom of the logs to find the endpoint.
-1. Open Chat GPT and add the plugin with that endpoint
+1. Open ChatGPT and add the plugin with that endpoint
 1. Run a query for 'hiking boots'
 
 ## What's next?
